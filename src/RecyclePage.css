@@ -1,0 +1,125 @@
+  .App{
+    background-image: url("./recycling-cans.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .isTrashable {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .isTrashable button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  
+  .text-container {
+    padding: 10px;
+    background-color: white;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    position: relative;
+  }
+  
+  .video-container webcam {
+    width: 600px;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .video-container canvas {
+    position: absolute;
+    top: 0;
+    left: 400px;
+    width: 600px;
+    height: 500px;
+    z-index: 2;
+  }
+  
+  .impact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 20px 0;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-out, opacity 0.5s ease-out;
+  }
+  
+  .impact-container.show {
+    opacity: 1;
+    height: auto;
+  }
+  
+  .impact-container.hide {
+    height: 0;
+  }
+
+/* Card styles */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out; 
+}
+
+.pro-card, .con-card {
+  background-color: #fff;
+  padding:1rem;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Container styles */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+  
+  
+  
