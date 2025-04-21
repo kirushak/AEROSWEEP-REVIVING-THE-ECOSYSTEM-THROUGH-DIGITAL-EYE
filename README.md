@@ -72,4 +72,5 @@ AeroSweep is an **intelligent autonomous drone** powered by **NVIDIA Jetson Nano
    ```bash
    sudo apt update
    sudo apt install python3-pip python3-opencv
-   pip3 install tensorflow flask numpy
+   pip3 install -r requirements.txt
+   python3 main.py
