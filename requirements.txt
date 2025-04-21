@@ -1,0 +1,47 @@
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+numpy>=1.18.5
+PyYAML>=5.3.1
+scipy>=1.4.1
+tqdm>=4.64.0
+matplotlib>=3.2.2
+pandas>=1.1.4
+seaborn>=0.11.0
+protobuf<4.21.3
+
+# Deep Learning ------------------------------
+torch>=1.7.0
+torchvision>=0.8.1
+
+# Computer Vision ----------------------------
+opencv-python>=4.1.2
+opencv-python-headless>=4.1.2
+Pillow>=7.1.2
+albumentations>=1.0.3
+pycocotools>=2.0.2  # COCO mAP
+
+# Model Libraries ----------------------------
+ultralytics>=8.0.0  # YOLOv8/YOLOv10
+
+# UI -----------------------------------------
+PySide6>=6.4.0
+PySide6-Fluent-Widgets[full]>=1.0.0
+
+# Notifications ------------------------------
+twilio>=7.0.0  # For SMS notifications
+
+# Logging/Monitoring ------------------------
+tensorboard>=2.4.1
+colorlog>=6.7.0
+thop>=0.1.1  # FLOPs computation
+psutil>=5.9.0  # System utilization
+
+# Development Tools -------------------------
+ipython  # Interactive notebook
+black  # Code formatting
+isort  # Import sorting
+
+# Additional --------------------------------
+requests>=2.27.1
+packaging>=20.9
