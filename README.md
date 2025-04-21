@@ -8,7 +8,7 @@ AeroSweep is an **intelligent autonomous drone** powered by **NVIDIA Jetson Nano
 
 ## 📸 Project Preview
 
-![Front View of Setup](./1.jpg)
+![Front View of Setup](/output/1.jpg)
 ![Top View of Drone Setup](./2.jpg)
 
 ---
